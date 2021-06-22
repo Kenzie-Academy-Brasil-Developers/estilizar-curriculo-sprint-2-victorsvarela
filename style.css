@@ -1,5 +1,43 @@
+html{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+	margin:0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+}
+
+.cabecalho{
+	background-color: #cf8a05;
+	height: 2px;
+	border: 0;
+}
+
+.seccao{
+	background-color: #dedede;
+	height: 1px;
+	border: 0;
+}
+
 .clear {
 	clear: both;
+}
+
+#cv{
+	width: 80vw;
+	margin: 50px auto;
+	
+}
+
+.mainDetails, #mainArea{
+	padding: 0 60px;
 }
 
 #headshot {
@@ -8,20 +46,50 @@
 	margin-right: 30px;
 }
 
+.foto-perfil{
+	height: 80px;
+	border-radius: 100%;
+}
+
 #name {
 	float: left;
+}
+
+.mainDetails #name h1 {
+	margin-bottom: 0px;
+}
+
+.mainDetails #name h2 {
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+#mainArea .sectionTitle h1{
+	color: #cf8a05;
 }
 
 #contactDetails {
 	float: right;
 }
 
+#contactDetails ul li{
+	list-style-type: none;
+}
+
 .sectionTitle {
 	float: left;
 	width: 25%;
+	font-size: 15px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.sectionContent .keySkills{
+	display: inline-block;
+	list-style-type: none;
+	
 }
